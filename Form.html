@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+
+<body>
+    <form onsubmit="takevalue()">
+        <label for="name">Name</labe>
+            <div>
+                <input type="text" name="myname" id="Name">
+            </div>
+
+            <label for="Role">Role</label>
+            <div>
+                <input type="text" name="myrole" id="Role">
+            </div>
+
+            <label for="number">Number</label>
+            <div>
+                <input type="number" name="mynumber" id="number">
+            </div>
+
+            <label for="Manager">Manager</label>
+            <div>
+                <input type="text" name="manager" id="Manager">
+            </div>
+
+            <label for="Office">Office</label>
+            <div>
+                <input type="text" name="myoffice" id="Office">
+            </div>
+
+            <label for="date">Joining Date</label>
+            <div>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <input type="submit" value="submit">
+
+    </form>
+    <script>
+        function takevalue(){
+            var Name=document.getElementById
+            ("Name").value;
+
+            var Role=document.getElementById
+            ("Role").value;
+
+            var number=document.getElementById
+            ("number").value;
+
+            var Manager=document.getElementById
+            ("Manager").value;
+
+            var Office=document.getElementById
+            ("Office").value;
+
+            var date=document.getElementById
+            ("date").value;
+
+            document.write("Name :" +Name+"<br>");
+            document.write("Role :" +Role+"<br>");
+            document.write("number:" +number+"<br>");
+            document.write("Manager :" +Manager+"<br>")
+            document.write("Office :" +Office+"<br>");
+            document.write("date :" +date+"<br>")
+
+            
+
+        }
+    </script>
+</body>
+
+</html>
